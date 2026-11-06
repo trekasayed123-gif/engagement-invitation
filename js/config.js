@@ -19,7 +19,7 @@ window.INVITE_CONFIG = {
     mapsUrl: 'https://share.google/6RHSWhRJVfOMmdvhE'                            // paste your Google Maps link. EMPTY = opens a Google Maps SEARCH (not a verified pin).
   },
 
-  shareUrl: '',                            // public invitation URL for WhatsApp sharing. EMPTY = current page URL.
+  shareUrl: 'https://engagement-invitation-sandy.vercel.app',                            // public invitation URL for WhatsApp sharing. EMPTY = current page URL.
 
   /* MUSIC: drop your song into assets/music/ with ONE of these names (first one found is used). */
   music: { enabled: true, files: ['assets/music/background.mp3', 'assets/music/background.mpeg', 'assets/music/song.mp3', 'assets/music/music.mp3', 'assets/music/background.m4a'], volume: 0.5, loop: true },
