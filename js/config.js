@@ -8,12 +8,14 @@
    ?to=mayada   -> Mayada's number
    ?to=moaz     -> Moaz's number
    ?to=mayada2  -> Mayada 2's number
+   ?to=mahmoud  -> Mahmoud's number
    No ?to=      -> falls back to Eslam's number */
 const INVITE_NUMBERS = {
   me:       '201126400356',   // إسلام
   mayada:   '201099541566',   // ميادة
   moaz:     '201070669652',   // معاذ
-  mayada2:  '201126276402'    // ميادة 2
+  mayada2:  '201126276402',   // ميادة 2
+  mahmoud:  '201220302709'    // محمود
 };
 const INVITE_TO = new URLSearchParams(location.search).get('to');
 const INVITE_CHOSEN_NUMBER = INVITE_NUMBERS[INVITE_TO] || INVITE_NUMBERS.me;
@@ -43,7 +45,7 @@ window.INVITE_CONFIG = {
  
   rsvp: {
     formEndpoint: '',                      // e.g. Formspree URL — responses are POSTed as JSON
-    whatsappNumber: INVITE_CHOSEN_NUMBER,  // chosen automatically from the link (?to=me / mayada / moaz / mayada2)
+    whatsappNumber: INVITE_CHOSEN_NUMBER,  // chosen automatically from the link (?to=me / mayada / moaz / mayada2 / mahmoud)
     maxGuests: 5                           // if BOTH are empty, the form says RSVP is not connected and saves nothing
   },
  
