@@ -25,7 +25,7 @@ window.INVITE_CONFIG = {
   arabicNumerals: true,                    // true = ٢٣ ، false = 23 inside the Arabic version
  
   groom: { ar: 'إسلام', en: 'Eslam' },
-  bride: { ar: 'ميادة', en: 'Mayade' },
+  bride: { ar: 'ميادة', en: 'Mayada' },
  
   eventDate: '2026-11-23',                 // YYYY-MM-DD
   eventTime: '19:00',                      // 24h "HH:MM" e.g. "19:30". EMPTY = date-only view, no countdown.
